@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(178, 180, 180);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 800px;
+    height: 730px;
+    margin-top: 6px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 255),
+                10px 10px 10px rgba(0,0,0,0.1),
+                inset -8px -8px 15px rgba(255,255,255,0.5),
+                inset 10px 10px 10px rgba(0,0,0,0.1);
+}
+
+.img2{
+    width: 800px;
+    height: 730px;
+    margin-top: 6px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 255),
+                10px 10px 10px rgba(0,0,0,0.1),
+                inset -8px -8px 15px rgba(255,255,255,0.5),
+                inset 10px 10px 10px rgba(0,0,0,0.1);
+}
+
+.img3{
+    width: 800px;
+    height: 730px;
+    margin-top: 6px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 255),
+                10px 10px 10px rgba(0,0,0,0.1),
+                inset -8px -8px 15px rgba(255,255,255,0.5),
+                inset 10px 10px 10px rgba(0,0,0,0.1);
+}
+
+section{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reloj{
+    display: inline-block;
+    color: rgb(116, 112, 112);
+    font-size: 60px;
+    margin-top: -400px;
+    margin-left: -160px; 
+    border: 5px solid;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 255),
+                10px 10px 10px rgba(0,0,0,0.1),
+                inset -8px -8px 15px rgba(255,255,255,0.5),
+                inset 10px 10px 10px rgba(0,0,0,0.1);
+}
+.contraseña{
+    size: 200px;
+    margin-left: 100px; 
+    margin-top: -400px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.password{
+    width: 400px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.pass{
+    color: rgb(39, 38, 38);
+    margin-left: 130px;
+    size: 50px;
+    margin-top: -40px; 
+}
+
+.boton {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin-top: 350px;
+    margin-left: -450px;
+   
+}
+
+.boton1 {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    margin-left: -450px;
+    margin-bottom: 200px;
+    margin-top: 250px;
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
+    
+}
+
+.boton2 {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    margin-left: -680px;
+    margin-bottom: 200px;
+    margin-top: 248px;
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
+    
+}
+
+.boton3 {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    margin-left: -675px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    margin-left: 120px;
+    margin-top: -390px;
+    font-size: 17px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 255),
+                10px 10px 10px rgba(0,0,0,0.1),
+                inset -8px -8px 15px rgba(255,255,255,0.5),
+                inset 10px 10px 10px rgba(0,0,0,0.1);
+}
+
+h4 {
+    color: rgb(75, 75, 75);
+    font-size: 30px;
+    position: absolute;
+    left: 415px;
+    top: 100px;
+    margin-left: 75px;
+    
+}
+.container2{
+    display: none;
+}
+
+
+.retiros {
+    display: none;
+    margin-left: -160px;
+}
+
+.text2 {
+    margin-top: 150px;
+    margin-left: -600px;
+    
+}
+.numero{
+    width: 200px;
+    height: 30px;
+    margin-left: -220px;
+    margin-top: 230px;
+
+
+}
+.fondos{
+    margin-left: -1800px;
+    margin-top: 450px;
+
+}
+.aceptar {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 350px;
+    margin-right: 500px;
+    
+}
+
+.volver{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 350px;
+    margin-right: 800px;
+
+}
+
+
+
+
+
+

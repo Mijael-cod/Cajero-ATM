@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero ATM</title>
+    <link rel="icon" href="https://images.emojiterra.com/mozilla/512px/1f3e7.png">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+
+        <img src="img/cajero2.png" alt="">
+
+        <section>
+            <div class="reloj">
+                <span id="tiempo">00 : 00 : 00</span>
+            </div>
+        </section>
+
+        <div class="contraseña">
+            <h1 class="pass">Password</h1><br><br>
+            <input class="password" type="password" name="" id="contra" maxlength="8" onkeyup="ingresar()">
+        </div>
+
+    </div>
+
+    <div class="container2" id="container2">
+
+        <img src="img/cajero2.png" alt="">
+
+        <h4 class="text1">&nbspSeleccionar&nbspla operación&nbsp </h4>
+
+        <button class="boton" >Consultas</button>
+        <button class="boton1">Depositos</button>
+        <button onclick="retiro()" class="boton2">Retiros</button>
+        
+        <form action="index.html" method="get">
+            <button class=" boton3 " id="consult " type="button " onclick="Consultas "
+                onkeyup=" Consultas() ">Salir</button>
+        </form>
+
+    </div>
+
+        <div class="retiros" id="retiros">
+
+            <img src="img/cajero2.png" alt="">
+
+            <h1 class="text2">Monto a Retirar</h1>
+
+            <input type="number" id="retiros" class="numero" onclick="retiro()">
+            
+                <button class="aceptar" onclick="aceptar();">ACEPTAR</button>
+                <button class="volver" onclick="volver();">VOLVER</button>
+
+            <h2 class="fondos">FONDOS DE LA CUENTA: s./2000.00</h2>
+
+        </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
